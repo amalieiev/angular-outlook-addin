@@ -1,11 +1,11 @@
 import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 import { FormsModule } from "@angular/forms";
-import { AppComponent } from "./app.component";
+import { TaskpaneComponent } from "./taskpane.component";
 
 @NgModule({
     imports: [BrowserModule, FormsModule],
-    declarations: [AppComponent],
-    bootstrap: [AppComponent],
+    declarations: [TaskpaneComponent],
+    bootstrap: [TaskpaneComponent],
 })
-export class AppModule {}
+export class TaskpaneModule {}
